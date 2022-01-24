@@ -74,9 +74,7 @@ const App = () => {
           <Route 
               path="/:taskTitle" 
               exact 
-              element = {
-                <TaskDetails />
-            } 
+              element = {<TaskDetails/>} 
           />
         </Routes>
       </div>
